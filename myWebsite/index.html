@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./mediaqueries.css" />
+  <title>Thomas Deon</title>
+</head>
+
+<body>
+  <nav id="deskstop-nav">
+    <div class="logo">Thomas Deon</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav id="humburger-nav">
+    <div class="logo">Thomas Deon</div>
+    <div class="humburger-menu">
+      <div class="humberger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section id="profile">
+    <div class="section_pic-container">
+      <!-- todo replace the profile picture with you actual picture -->
+      <img src="./assets/profile-pic.png" alt="thomas deon profile picture  " />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello I'm</p>
+      <h1 class="title">Thomas Deon</h1>
+      <p class="section__text__p2">Fronted Developer</p>
+      <p class="section__text__p2">Backend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='./#Contact'">Contact Info</button>
+      </div>
+
+      <div id="social-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile"
+          onclick="location.href='https://www.linkedin.com/in/thomas-shikalepo/'" class="icon">
+        <img src="./assets/github.png" alt="My GitHub profile"
+          onclick="location.href='https://github.com/ThomasShikalepo/'" class="icon">
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know more</p>
+    <h1 class="title">About me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.png" alt="Thomas Deon about picture" class="about-pic">
+      </div>
+      <div class="about-details">
+        <div class="about-containers">
+          <div class="detail-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon">
+            <h3>Experience</h3>
+            <P>2+ years <br> Frontend Developement <br> Backend Developement</P>
+          </div>
+          <div class="detail-container">
+            <img src="./assets/education.png" alt="education icon" class="icon">
+            <h3>Education</h3>
+            <P>Bachelor of Computer Science </P>
+
+            <h3>Certifications</h3>
+            <p>Introduction to Networking(CISCO 1)</p>
+          </div>
+        </div>
+        <!-- todo replace larem with you about -->
+        <div text-container>
+          <p> Hello, I'm <strong>Thomas Shikalepo Deon</strong>, a passionate and dedicated software engineering student
+            at <strong>NUST</strong>, with a flair for problem-solving and creating innovative solutions. I specialize
+            in blending creativity and technical expertise to build functional, user-friendly applications. </p>
+          <p> My journey in coding has also extended to <strong>network engineering</strong>, where I'm progressing
+            through <strong>Cisco certifications</strong>, demonstrating my ability to design and manage networks
+            effectively. </p>
+          <p> From developing <strong>logistics systems</strong> with <strong>Apache Kafka</strong> to designing
+            <strong>data analytics solutions</strong>, my projects reflect my ability to merge software and network
+            engineering. </p>
+          <p> My goal is to use my skills to create impactful solutions, contribute to the tech community, and keep
+            growing as a developer. Feel free to explore my projects and connect with me! </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icons" class="icon arrow" onclick="location.href='./#experience'">
+  </section>
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experiance-details-container">
+      <div class="about-containers">
+        <div class="detail-container">
+          <h2 class="experience-sub-title">Front Developement</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>HTML</h3>
+                <P>Experienced</P>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>CSS</h3>
+                <P>Experienced</P>
+              </div>
+            </article>
+
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>java</h3>
+                <P>Intermediate</P>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>JavaScript</h3>
+                <P>Basic</P>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>PHP (Hypertext Preprocessor)</h3>
+                <P>basic</P>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>python</h3>
+                <P>Intermediate</P>
+              </div>
+            </article>
+          </div>
+
+
+        </div>
+
+
+        <div class="detail-container">
+          <h2 class="experience-sub-title">Front Developement</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>SQL</h3>
+                <P>Experienced</P>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>Ballerina</h3>
+                <P>Experienced</P>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icons" class="icon arrow" onclick="location.href='./#projects'">
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse my Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experiance-details-container">
+      <div class="about-containers">
+        <div class="detail-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Project one</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 prpject-btn"
+              onclick="location.href='https://github.com/ThomasShikalepo'">GitHub</button>
+          </div>
+        </div>
+
+        <div class="detail-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 prpject-btn"
+              onclick="location.href='https://github.com/ThomasShikalepo'">GitHub</button>
+          </div>
+        </div>
+        <div class="detail-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 prpject-btn"
+              onclick="location.href='https://github.com/ThomasShikalepo'">GitHub</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icons" class="icon arrow" onclick="location.href='./#contact '">
+  </section>
+
+ <section id="contact">
+  <p class="section__text__p1">Get In Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-container">
+    <form action="https://formsubmit.co/thomasdeon081@gmail.com" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Full Name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Address" required />
+      </div>
+      <div class="form-group">
+        <label for="organization">Organization (Optional):</label>
+        <input type="text" id="organization" name="organization">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <div class="btn-container">
+        <button type="submit" class="btn btn-color-1">Send Message</button>
+      </div>
+      <input type="hidden" name="_subject" value="From Personal website">
+    </form>
+  
+  </div>
+</section>
+
+
+  <footer>
+    <nav>
+      <div class="nav-links-contaner">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Thomas Deon. All Rights Reserved.</p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
