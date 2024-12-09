@@ -248,13 +248,17 @@ section {
     border: rgb(255, 255, 255) 0.1rem solid;
 } 
  /* ABOUT SECTION */
-.section__pic-container {
-    width: 400px; /* Set a fixed width to keep the image size stable */
-    max-width: 100%; /* Ensure it’s responsive on smaller screens */
-    flex-shrink: 0; /* Prevent the container from shrinking */
-  }
-  
-  .about-pic {
+ .section__pic-container {
+  width: 150px; /* Reduced width for smaller image */
+  max-width: 100%; /* Ensures responsiveness */
+  flex-shrink: 0; /* Prevents shrinking */
+}
+
+.section__pic-container img {
+  width: 100%; /* Makes the image fit the container */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}ut-pic {
     width: 100%; /* Let the image take up the full width of its container */
     height: auto;
     object-fit: cover;
